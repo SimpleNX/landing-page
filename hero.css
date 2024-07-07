@@ -15,7 +15,7 @@ body{
     display : flex;
     flex-direction: column;
     gap : 60px;
-    padding : 20px 300px;
+    padding : 20px 250px;
 }
 
 .header{
@@ -41,6 +41,7 @@ body{
     flex-direction: row;
     margin-bottom: 60px;
     justify-content: center;
+    gap : 20px;
 }
 .hero-text{
     display: flex;
@@ -67,7 +68,7 @@ body{
 .hero-image{
     box-sizing: border-box;
     height : 250px;
-    width : 600px;
+    width : 900px;
     background-color: grey;
     color : white;
     text-align: center;
