@@ -1,19 +1,24 @@
 .quote-section{
     background-color: #e5e7eb;
     padding : 65px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .quote-area{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-sizing: border-box;
+    align-items: center;
 }
 .quote{
     font-size: 36px;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
     color : #1f2937;
 }
 .quote-author{
     align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
 }

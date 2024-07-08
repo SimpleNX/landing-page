@@ -9,9 +9,9 @@
 .info-cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
+    gap : 70px;
 }
 
 .title{
@@ -22,8 +22,8 @@
 
 .box{
     box-sizing: border-box;
-    width : 150px;
-    height: 150px;
+    width : 200px;
+    height: 200px;
     background-color: white;
     border : 3px solid #3882f6;
     border-radius: 10px;
@@ -34,8 +34,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    width : 200px;
+    gap : 10px;
 }
 
 .box-text{
     text-align: center;
+    font-weight: 400;
+    color : #8d8c8c;
 }
